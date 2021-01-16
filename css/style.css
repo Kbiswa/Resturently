@@ -426,11 +426,12 @@ section
         display: none;
     }
     header .navigation.active
-    {
+       {
         width: 100%;
         height: calc(100% - 68px);
         position: fixed;
         top: 68px;
+        padding-left: initial;
         left: 0;
         display: flex;
         justify-content: center;
