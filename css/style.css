@@ -9,16 +9,17 @@
 }
 body
 {
-    
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../images/chicken-tandoori.jpg');
     position: relative;
-    background: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     width: 100%;
     min-height: 100vh;
-
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../images/chicken-tandoori.jpg');
-    background-size: cover;
+    
+
 }
 p
 {
