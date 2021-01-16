@@ -540,9 +540,13 @@ section
     }
         }
     body{
-        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../images/chicken-tandoori-responsive.jpg') no-repeat;
-        background-size: cover;
-        }
+         background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../images/chicken-tandoori-responsive.jpg') no-repeat;
+         height: 100vh;
+         width: 100%;
+         background-position: center;
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+    }
 }
 
 
